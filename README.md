@@ -29,13 +29,15 @@ import 'package:widget_did_build/widget_did_build.dart';
 
 4. Done. 
 
+---
+
 This is what you state class will look like in the end
 ```dart
 
 class _MyAppState extends DidBuildState<MyApp> { // Using DidBuildState instead of State
 
   @override
-  void didMount(BuildContext context) { // overriding and implement the didBuild method
+  void didBuild(BuildContext context) { // overriding and implement the didBuild method
     // call your method here 
   }
 

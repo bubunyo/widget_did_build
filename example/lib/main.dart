@@ -16,7 +16,7 @@ class _MyAppState extends DidBuildState<MyApp> {
   }
 
   @override
-  void didMount(BuildContext context) {
+  void didBuild(BuildContext context) {
     print('widget built>>>>>>>>>>>>>');
   }
 
