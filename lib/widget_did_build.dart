@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
-abstract class DidBuildState<T extends StatefulWidget> extends State<T> {
+mixin DidBuild<T extends StatefulWidget> on State<T> {
   @protected
   void didBuild(BuildContext context);
 

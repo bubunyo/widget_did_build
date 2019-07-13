@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widget_did_build/widget_did_build.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('widget_did_build');

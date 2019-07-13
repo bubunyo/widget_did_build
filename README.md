@@ -34,7 +34,7 @@ import 'package:widget_did_build/widget_did_build.dart';
 This is what you state class will look like in the end
 ```dart
 
-class _MyAppState extends DidBuildState<MyApp> { // Using DidBuildState instead of State
+class _MyAppState extends State<MyApp> with DidBuild {  // Using DidBuildState instead of State
 
   @override
   void didBuild(BuildContext context) { // overriding and implement the didBuild method

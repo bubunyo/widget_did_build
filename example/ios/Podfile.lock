@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - widget_did_build (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - widget_did_build (from `.symlinks/plugins/widget_did_build/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  widget_did_build:
+    :path: ".symlinks/plugins/widget_did_build/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  widget_did_build: d2167adbd10c67350ae74c1ecb05bf66fe671536
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.7.0

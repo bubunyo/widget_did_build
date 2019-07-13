@@ -8,7 +8,7 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends DidBuildState<MyApp> {
+class _MyAppState extends State<MyApp> with DidBuild {
   @override
   void initState() {
     super.initState();
