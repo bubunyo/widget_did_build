@@ -8,37 +8,15 @@ This is a simple library that makes it easy to run a function that takes in a co
 and runs *once* after the widget is built. Similar to `componentDidMount` in React.
 
 ## Usage
-1. Change you state class from
-```dart
-class _MyAppState extends State<MyApp> {
-  
-} 
-```
-to 
-```dart
-class _MyAppState extends DidBuildState<MyApp> {
-  
-}
-```
-
-2. Import the plugin 
-```dart
-import 'package:widget_did_build/widget_did_build.dart';
-```
-3. Add and override the `didBuildMethod` in your state class
-
-4. Done. 
-
----
-
 This is what you state class will look like in the end
 ```dart
+import 'package:widget_did_build/widget_did_build.dart'; // 1 - Import the widget_did_build_package
 
-class _MyAppState extends State<MyApp> with DidBuild {  // Using DidBuildState instead of State
+class _MyAppState extends State<MyApp> with DidBuild {  // 2-  Use DidBuild Mixin
 
   @override
-  void didBuild(BuildContext context) { // overriding and implement the didBuild method
-    // call your method here 
+  void didBuild(BuildContext context) { // 3 - Override and implement the didBuild method
+    //  4 - Your logic goes here  
   }
 
   @override
